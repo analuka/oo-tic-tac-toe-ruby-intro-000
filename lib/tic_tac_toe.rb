@@ -73,12 +73,17 @@ class TicTacToe
     display_board
   end
 
-  def won
+  def won?
     WIN_COMBINATIONS.any? do |combo|
       if position_taken?(combo[0]) && @board[combo[0]] == @board[combo[1]] && @board[combo[1]] == @board[combo[2]])
         return combo
       end
     end
+  end
+
+  def full?
+    # @board.all? {|token| token == "X" || token == "O"}
+    @board.all?{|square| square != " " }
   end
 
 end
