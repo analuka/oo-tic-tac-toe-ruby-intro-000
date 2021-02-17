@@ -57,4 +57,5 @@ class TicTacToe
     @board.count{|square| square != " " }
   end
 
+  
 end
