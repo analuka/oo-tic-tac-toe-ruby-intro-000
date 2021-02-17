@@ -105,7 +105,7 @@ class TicTacToe
     turn until !over?
     if won?
       winner = game_winner
-      puts Congratulations winner
+      puts "Congratulations player #{game_winner}!
   end
 
 end
