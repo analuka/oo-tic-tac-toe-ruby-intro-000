@@ -4,8 +4,12 @@ class TicTacToe
   # end
   attr_accessor :board
   def initialize
-    @board = Array.new (9, " ")
+    # @board = Array.new (9, " ")
     # @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  end
+
+  def set_board
+
   end
 
 
