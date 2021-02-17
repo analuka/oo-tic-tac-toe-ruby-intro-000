@@ -68,8 +68,9 @@ class TicTacToe
     if valid_move?(index)
       token = current_player
       move(index, token)
-    elsif !valid_move?(index)
-      puts "Please enter 1-9"
+    else
+      turn
     end
+    display_board
   end
 end
