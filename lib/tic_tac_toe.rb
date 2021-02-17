@@ -45,12 +45,12 @@ class TicTacToe
     @board[index] = token
   end
 
-  def position_taken?
+  def position_taken?(index)
     @board[index] != " "
   end
 
   def valid_move?
-    if !position_taken?
+    if !position_taken? ||
   end
 
 end
