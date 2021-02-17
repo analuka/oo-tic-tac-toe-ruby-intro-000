@@ -95,9 +95,9 @@ class TicTacToe
   end
 
   def winner
-    winning_combo = won?
-    winning_combo.first = token
-    token 
+    if combo = won?
+    board[combo[0]]
+  end 
   end
 
 
