@@ -108,7 +108,7 @@ class TicTacToe
       puts "Congratulations player #{game_winner}!"
     elsif draw?
       puts "It's a draw!"
-      
+
   end
 
 end
